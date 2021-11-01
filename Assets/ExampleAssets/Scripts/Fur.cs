@@ -17,4 +17,5 @@ public class Fur : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
 }
