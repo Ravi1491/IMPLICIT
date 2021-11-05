@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 22732921}
   m_Layer: 0
   m_Name: AR Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -582,8 +582,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfd4f878a7e90b3459bd7f1716e4e51e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxPrefabSpawnCount: 0
-  PlaceablePrefab: {fileID: 0}
+  maxPrefabSpawnCount: 5
+  PlaceablePrefab: {fileID: 919132149155446097, guid: b9c7af8257ec1e843bdb517a3755659e,
+    type: 3}
 --- !u!1 &398386884
 GameObject:
   m_ObjectHideFlags: 0
@@ -1126,7 +1127,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 308, y: -286.0166}
+  m_AnchoredPosition: {x: 308, y: -286.01685}
   m_SizeDelta: {x: 436.6344, y: 348.9408}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &723424561
@@ -1154,7 +1155,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.68235296, g: 0.68235296, b: 0.68235296, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1185,6 +1186,19 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 388525036}
+        m_TargetAssemblyTypeName: SpawnObjectOnPlane, Assembly-CSharp
+        m_MethodName: SetPrefabType
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8977383480386356929, guid: 696ff9201f2181849ba7ac3a9694f23f,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &723424562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1205,8 +1219,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 7bf33b5f924d3e345bb49f3b9770ea43, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1535,9 +1549,9 @@ RectTransform:
   m_Father: {fileID: 219595656}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 308, y: -1586}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 308, y: 754}
   m_SizeDelta: {x: 436.6344, y: 348.9408}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1355342476
