@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -522,7 +522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PlanePrefab: {fileID: 1458981279931060070, guid: 94e6a08d9db424384a160e879e86f8e3,
     type: 3}
-  m_DetectionMode: -1
+  m_DetectionMode: 1
 --- !u!114 &764019610
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -535,7 +535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfd4f878a7e90b3459bd7f1716e4e51e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxPrefabSpawnCount: 5
+  maxPrefabSpawnCount: 10
   PlaceablePrefab: {fileID: 919132149155446097, guid: b9c7af8257ec1e843bdb517a3755659e,
     type: 3}
 --- !u!114 &764019611
